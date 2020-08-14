@@ -21,9 +21,13 @@ cscript //nologo c:\windows\system32\slmgr.vbs /ipk GO0X5-B00EC-G9GXW-2HFG2-WKVQ
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk RGBCO-5ES8L-4C31D-VHHV1-T90SC >nul
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk A0EED-DTCJQ-XSIAG-SQDQH-UV1ZT >nul
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk YV0UI-VDXL8-KWMFF-7MY8F-GABJX >nul
-echo ************************************ &echo.&echo.&set i=1 :server if %i%==1 set 
-KMS_Sev=kms.chinancce.com if %i%==2 set KMS_Sev=NextLevel.uk.to if %i%==3 set 
-KMS_Sev=GuangPeng.uk.to if %i%==4 set KMS_Sev=AlwaysSmile.uk.to if %i%==5 set 
-KMS_Sev=kms.chinancce.com if %i%==6 set KMS_Sev=kms.shuax.com if %i%==7 exit 
+echo ************************************ &echo.&echo.&set i=1 :server 
+if %i%==1 set KMS_Sev=kms.chinancce.com 
+if %i%==2 set KMS_Sev=NextLevel.uk.to 
+if %i%==3 set KMS_Sev=GuangPeng.uk.to 
+if %i%==4 set KMS_Sev=AlwaysSmile.uk.to 
+if %i%==5 set KMS_Sev=kms.chinancce.com 
+if %i%==6 set KMS_Sev=kms.shuax.com if %i%==7 exit 
 cscript //nologo c:\windows\system32\slmgr.vbs /skms %KMS_Sev% >nul 
-cscript //nologo c:\windows\system32\slmgr.vbs /ato | find /i “successfully” && (echo.& ************************************ & echo. & choice /n /c YN /m “Do you want to restart your PC now [Y,N]?” & if errorlevel 2 exit) || (echo The connection to the server failed! Trying to connect to another one… & echo Please wait… & echo. & echo. & set /a i+=1 & goto server) shutdown.exe /r /t 00
+cscript //nologo c:\windows\system32\slmgr.vbs /ato | find /i “successfully” && (echo.& ************************************ & echo. & choice /n /c YN /m “Do you want to restart your PC now [Y,N]?” & if errorlevel 2 exit) || (echo The connection to the server failed! Trying to connect to another one… & echo Please wait… & echo. & echo. & set /a i+=1 & goto server) 
+shutdown.exe /r /t 00
