@@ -12,6 +12,15 @@ cscript //nologo c:\windows\system32\slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT4
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4 >nul 
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk WNMTR-4C88C-JK8YV-HQ7T2-76DF9 >nul 
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk 2F77B-TNFGY-69QQF-B8YKP-D69TJ >nul 
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk P31FP-C7QS5-TJARC-72LFM-JM4TQ >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk OBWEZ-DFLD6-LQ74M-A5ZJD-GJHZB >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk 9G4UQ-RK0EI-D7LJZ-3M4NR-PP621 >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk 8E55J-INKQO-M7JIA-UPLMI-6JA03 >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk 562MD-WJA3V-SC0YG-F8B7Y-7MJ3B >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk GO0X5-B00EC-G9GXW-2HFG2-WKVQ6 >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk RGBCO-5ES8L-4C31D-VHHV1-T90SC >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk A0EED-DTCJQ-XSIAG-SQDQH-UV1ZT >nul
+cscript //nologo c:\windows\system32\slmgr.vbs /ipk YV0UI-VDXL8-KWMFF-7MY8F-GABJX >nul
 echo ************************************ &echo.&echo.&set i=1 :server if %i%==1 set 
 KMS_Sev=kms.chinancce.com if %i%==2 set KMS_Sev=NextLevel.uk.to if %i%==3 set 
 KMS_Sev=GuangPeng.uk.to if %i%==4 set KMS_Sev=AlwaysSmile.uk.to if %i%==5 set 
